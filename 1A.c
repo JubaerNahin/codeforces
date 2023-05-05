@@ -3,11 +3,11 @@ using namespace std;
  
 int main() 
 {
-   long long int n,m,o,p;
+   long long int n,m,o,q;
    double a;
    scanf("%lld %lld %lf",&n,&m,&a);
    o=ceil(n/a);
-   p=ceil(m/a);
-   printf("%lld",p*o);
+   q=ceil(m/a);
+   printf("%lld",q*o);
    return 0;
 }
